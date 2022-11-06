@@ -18,6 +18,17 @@ body {
   font-size: 1.5rem;
   padding-top: 10%;
 }
+.guest{
+  
+  position: absolute;
+  top:50%;
+  width: 100%;
+  display: block;
+  padding:20%;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 .main-nav {
   width: 90%;
@@ -44,12 +55,9 @@ body {
 	padding: 2px 25px;
 	text-decoration: none;
 	border-radius: 30px;
-  line-height: 45px;
+  line-height: 40px;
   color: #FFF;
-	-webkit-transition: all 0.30s ease-in-out;
-  	-moz-transition: all 0.30s ease-in-out;
-  	-ms-transition: all 0.30s ease-in-out;
-  	-o-transition: all 0.30s ease-in-out;
+	
 }
 
 .main-nav li:nth-child(1) a {
@@ -151,6 +159,11 @@ body {
     height: 70px;
     line-height: 70px;
   }
+
+
+}
+@media only screen and (max-width: 600px) {
+  
 }
 
 .form {
@@ -244,10 +257,7 @@ body {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-	-webkit-transition: all 0.30s ease-in-out;
-  	-moz-transition: all 0.30s ease-in-out;
-  	-ms-transition: all 0.30s ease-in-out;
-  	-o-transition: all 0.30s ease-in-out;
+	
 }
 .form input[type=submit]:hover {
 	background: #d83d3d;
@@ -357,10 +367,7 @@ body {
   text-decoration: none;
 	border-bottom: 1px solid rgba(255, 255, 255, .0);
 	padding: 0 0 0 2px;
-	-webkit-transition: all 0.30s ease-in-out;
-  	-moz-transition: all 0.30s ease-in-out;
-  	-ms-transition: all 0.30s ease-in-out;
-  	-o-transition: all 0.30s ease-in-out;
+	
 }
 .form-bottom-message a:hover {
 	-webkit-animation: borderslide-3px .5s;
@@ -429,10 +436,7 @@ body {
 	text-decoration: none;
 	padding: 0 1px 1px 2px;
 	border-bottom: 1px solid rgba(246, 71, 71, .0);
-	-webkit-transition: all 0.30s ease-in-out;
-  	-moz-transition: all 0.30s ease-in-out;
-  	-ms-transition: all 0.30s ease-in-out;
-  	-o-transition: all 0.30s ease-in-out;
+	
 }
 
 .accept-terms:hover {
