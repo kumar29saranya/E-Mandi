@@ -45,7 +45,7 @@
         delay: 10,
         time: 2000
     });
-
+    
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
